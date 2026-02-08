@@ -1,0 +1,26 @@
+# --- SEGURANÇA (CRÍTICO) ---
+# Ignora o arquivo com senhas e chaves do RainMaker
+secrets.h
+
+# --- ARQUIVOS DE COMPILAÇÃO (LIXO) ---
+# O Arduino gera isso toda vez que você clica em "Verificar/Compilar"
+*.bin
+*.elf
+*.hex
+*.map
+*.dis
+*.bootloader.bin
+*.partitions.bin
+
+# Arquivos de configuração de build locais
+project_build_config.json
+build/
+.pio/
+debug/
+
+# --- SISTEMA OPERACIONAL E IDE ---
+# Arquivos gerados pelo Windows ou VS Code
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
